@@ -24,6 +24,17 @@
     <plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.7.1" />
     <plugin name="cordova-plugin-network-information" source="npm" spec="~1.3.3" />
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.5" />
+    <platform name="android">
+            <icon background="../res/icon/android/tripsearchldpi.png" density="ldpi" />
+            <icon background="../res/icon/android/tripsearchmdpi.png" density="mdpi" />
+            <icon background="../res/icon/android/tripsearchhdpi.png" density="hdpi" />
+    </platform>
+    <platform name="android">
+            <splash background="../res/screen/android/tripsearchldpi.png" density="ldpi" />
+            <splash background="../res/screen/android/tripsearchmdpi.png" density="mdpi" />
+            <splash background="../res/screen/android/tripsearchhdpi.png" density="hdpi" />
+    </platform>
+
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
